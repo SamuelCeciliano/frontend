@@ -1,0 +1,73 @@
+/*Configura o corpo do site*/
+body {
+    /*Define imagem de fundo do site*/
+    background-image: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjEwMTYtYy0wMi1rc2g2cWt1Zy5qcGc.jpg);
+    /*Impede que a imagem de fundo se repita*/
+    background-repeat: no-repeat;
+    /*Ajusta o tamanho da imagem para a tela toda*/
+    background-size: cover;
+    /*Define cor das letras*/
+    color: aliceblue;
+    /*Define a fonte das letras*/
+    font-family: Verdana;
+    /*Justifica o texto*/
+    text-align: justify;
+    /*Tamanho padrão para letras*/
+    font-size: 15px;
+}
+
+/*Configura o parágrafo*/
+p {
+    /*Tamanho da fonte*/
+    font-size: 16px;
+}
+
+/*Configura conteúdo da lista Não-Ordenada*/
+li {
+    font-size: 16px;
+}
+
+/*Configura imagem*/
+img {
+    width: 360px;
+    height: 250px;
+    /*Leve arredondamento*/
+    border-radius: 10px;
+    /*Cor da borda*/
+    border-color: white;
+}
+
+/*Configura imagem com classe icon (Euro2024)*/
+#icon {
+    /*Fixa na posição*/
+    position: fixed;
+    width: 100px;
+    height: auto;
+    /*Remove arredondamento geral*/
+    border-radius: 0%;
+    /*Posiciona no topo superior direito*/
+    right: 0;
+}
+
+/*Configura Tabela*/
+table {
+    width: 90vw;
+    height: auto;
+}
+
+/*Configura inserção de vídeo You Tube*/
+iframe {
+    width: 360px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+footer{
+    font-size: 20px;
+    color: aliceblue;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 10px;
+    font-weight: bold;
+}

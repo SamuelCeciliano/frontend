@@ -1,0 +1,82 @@
+/*Definição de margem*/
+* {
+    margin: 5;
+    padding: 5;
+    box-sizing: border-box;
+}
+
+/*Configura o corpo do site*/
+body {
+    /*Define imagem de fundo do site*/
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/009/871/929/small_2x/abstract-wave-blue-background-free-vector.jpg);
+    /*Impede que a imagem de fundo se repita*/
+    background-repeat: no-repeat;
+    /*Ajusta o tamanho da imagem para a tela toda*/
+    background-size: cover;
+    overflow: hidden;
+}
+
+#transp{
+    background-image: linear-gradient();
+}
+
+.container {
+    /*Transforma a div em flex para poder alterar seus itens "filhos"*/
+    display: flex;
+    /*Separa o conteúdo em várias linhas*/
+    flex-wrap: wrap;
+    /*Define como os conteúdos serão posicionados*/
+    justify-content: space-evenly;
+    /*Define um espaçamento*/
+    gap: 20px;
+}
+
+/*Definição das imagens das bandeiras nas tabelas*/
+img {
+    width: 26%;
+    height: auto;
+    /*Arredondamento da imagem*/
+    clip-path: circle();
+}
+
+/*Configuração de todas Tabelas*/
+table {
+    width: 45%;
+    text-align: center;
+    border-collapse: collapse;
+    color: black;
+    font-family: verdana;
+}
+
+/*Configura Célula da Tabela juntas*/
+th,
+td {
+    border: 1px solid black;
+    padding: 6px;
+    text-align: center;
+    width: 35%;
+}
+
+/*Configura apenas Cabeçalho*/
+th {
+    color: aliceblue;
+    font-size: 20px;
+    background-color: rgb(0, 9, 109);
+}
+
+/*Configura apenas Célula(Conteúdo)*/
+td {
+    font-size: 18px;
+    background-color: rgba(43, 43, 78, 0.248);
+    font-weight: bold;
+}
+
+footer{
+    text-align: right;
+    font-size: 20px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 10px;
+    font-weight: bold;
+}
